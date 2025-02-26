@@ -23,25 +23,25 @@ class Pizza:
         """
         Simulates the preparation of the pizza.
         """
-        print(f"Preparing {self.name}...")
+        print(f"Preparing {self.name}...\n")
 
     def bake(self):
         """
         Simulates baking the pizza.
         """
-        print(f"Baking {self.name}...")
+        print(f"Baking {self.name}...\n")
 
     def cut(self):
         """
         Simulates cutting the pizza.
         """
-        print(f"Cutting {self.name}...")
+        print(f"Cutting {self.name}...\n")
 
     def pack(self):
         """
         Simulates packing the pizza.
         """
-        print(f"Packing {self.name}...")
+        print(f"Packing {self.name}...\n")
 
 
 class PepperoniPizza(Pizza):
@@ -98,7 +98,7 @@ class Order:
         """
         Returns a string representation of the order.
         """
-        return f"Order {self.order_number}: {len(self.ordered_pizzas)} pizza(s), Total: ${self.total()}"
+        return f"\nOrder {self.order_number}: {len(self.ordered_pizzas)} pizza(s), Total: ${self.total()}"
 
     def add_pizza(self, pizza):
         """
@@ -165,7 +165,7 @@ class Terminal:
         self.order = Order()
         self.show_menu()
         while True:
-            choice = input("Enter pizza number to add to order (or 'done' to finish): ")
+            choice = input("\nEnter pizza number to add to order (or 'done' to finish): ")
             if choice.lower() == "done":
                 break
             if choice.isdigit() and 1 <= int(choice) <= len(self.menu):
@@ -183,8 +183,8 @@ if __name__ == "__main__":
     terminal.run()
 
 
-    order = Order()
-    order.add_pizza(PepperoniPizza())
-    order.add_pizza(BBQPizza())
-    print(order)
-    order.process()
+    # order = Order()
+    # order.add_pizza(PepperoniPizza())
+    # order.add_pizza(BBQPizza())
+    # print("ЗАказ: ", order)
+    # order.process()
