@@ -1,6 +1,6 @@
 # *Object-Oriented Programming* - Labs in Python
 
-![ncfu_logo.jpeg](https://www.schchat.com/storage/school/profilepic/imagesjpeg_1683136605.jpeg)
+![ncfu_logo.svg](https://www.eng.ncfu.ru/local/templates/.default/img/logo-new-eng.svg)
 
 This repository contains a set of lab assignments for **Object-Oriented Programming** (*OOP*) using Python.
 
@@ -16,7 +16,9 @@ This repository contains a set of lab assignments for **Object-Oriented Programm
 | 5   |       |          | ❌    |
 
 
+
 ## 📂 Project Structure
+
 
 
 ## 🚀 How to Run it
@@ -27,10 +29,12 @@ This repository contains a set of lab assignments for **Object-Oriented Programm
    cd pizh-23-11-Akinin/
 
 
+
 ## 📦 Requirements
 
 - [x] Python 3.10+    
 - [x] No additional dependencies required!
+
 
 
 ## ☁️ Tasks on Cloud
