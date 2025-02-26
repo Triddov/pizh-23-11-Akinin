@@ -1,7 +1,7 @@
 # *Object-Oriented Programming* - Labs in Python
 
 <h1 align="center" style="border-bottom: none">
-    <a href="https://ncfu.ru/" target="_blank"><img alt="NCFU" src="./ncfu-logo.svg"></a>
+    <a href="https://ncfu.ru/" target="_blank"><img alt="NCFU" src="./ncfu-logo.svg" width="115" height="115"></a>
 </h1>
 
 This repository contains a set of lab assignments for **Object-Oriented Programming** (*OOP*) using Python.
