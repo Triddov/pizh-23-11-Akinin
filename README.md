@@ -1,5 +1,5 @@
 # *Object-Oriented Programming* - Labs in Python
-
+--- 
 <h1 align="center" style="border-bottom: none">
     <a href="https://ncfu.ru/" target="_blank"><img alt="NCFU" src="./ncfu-logo.svg" width="115" height="115"></a>
 </h1>
@@ -9,27 +9,58 @@ This repository contains a set of lab assignments for **Object-Oriented Programm
 
 ## 📌 List of Labs
 
-| Lab | Topic | Date     | Done |
-|-----|-------|----------|------|
-| 1   |       |          | ✅    |
-| 2   |       | 02/20/25 | ✅    |
-| 3   |       |          | ❌    |
-| 4   |       |          | ❌    |
-| 5   |       |          | ❌    |
+| Lab | Date     | Done |
+|-----|----------|------|
+| 1   | 02/20/25 | ✅    |
+| 2   | 02/20/25 | ✅    |
+| 3   | 02/27/25 | ✅    |
+| 4   |          | ❌    |
+| 5   |          | ❌    |
 
 
 
 ## 📂 Project Structure
 
-
+```bash
+	.
+	├── laba1
+	│   ├── task10.py
+	│   ├── task2.py
+	│   ├── task3.py
+	│   ├── task4.py
+	│   ├── task5.py
+	│   ├── task6.py
+	│   ├── task7.py
+	│   ├── task8.py
+	│   └── task9.py
+	├── laba2
+	│   ├── img.png
+	│   ├── README.md
+	│   └── task1.py
+	├── laba3
+	│   ├── README.md
+	│   ├── task1_Roman.drawio
+	│   ├── task1_roman_nums.py
+	│   ├── task1-tests.py
+	│   └── task2_pizza.py
+	├── ncfu-logo.svg
+	└── README.md
+```
+	
 
 ## 🚀 How to Run it
 
-1. Just clone the repository!  
+1. Clone the repository  
    ```bash
    git clone https://github.com/Triddov/pizh-23-11-Akinin
-   cd pizh-23-11-Akinin/
+   cd pizh-23-11-Akinin/laba{number}
+   ```
+2. And just run it!
+	```bash
+	python {task_name}.py
+	```
 
+Replace {number} with the required lab number and {task_name} with the assignment number
 
 
 ## 📦 Requirements
@@ -41,7 +72,11 @@ This repository contains a set of lab assignments for **Object-Oriented Programm
 
 ## ☁️ Tasks on Cloud
 
+The assignments and methodological guidelines are available on Yandex Disk:
+
 https://disk.yandex.ru/d/FEu7q-74Z0GLIw
 
 
---- 
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
