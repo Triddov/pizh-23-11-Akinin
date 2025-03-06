@@ -1,5 +1,5 @@
 import json
-from typing import List, Any
+from typing import List
 
 
 class Vector:
@@ -62,7 +62,7 @@ class VectorCollection:
             self._data = [Vector.from_dict(item) for item in data]
 
 
-# Example usage
+# example
 if __name__ == "__main__":
     collection = VectorCollection()
     collection.add(Vector(1, 2))
