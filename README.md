@@ -22,29 +22,33 @@ This repository contains a set of lab assignments for **Object-Oriented Programm
 ## 📂 Project Structure
 
 ```bash
-	.
-	├── laba1
-	│   ├── task10.py
-	│   ├── task2.py
-	│   ├── task3.py
-	│   ├── task4.py
-	│   ├── task5.py
-	│   ├── task6.py
-	│   ├── task7.py
-	│   ├── task8.py
-	│   └── task9.py
-	├── laba2
-	│   ├── img.png
-	│   ├── README.md
-	│   └── task1.py
-	├── laba3
-	│   ├── README.md
-	│   ├── task1_Roman.drawio
-	│   ├── task1_roman_nums.py
-	│   ├── task1-tests.py
-	│   └── task2_pizza.py
-	├── ncfu-logo.svg
-	└── README.md
+├── laba2  
+│   ├── img.png  
+│   ├── README.md  
+│   └── task1.py  
+├── laba3  
+│   ├── README.md  
+│   ├── task1_Roman.drawio  
+│   ├── task1_roman_nums.py  
+│   ├── task1-tests.py  
+│   └── task2_pizza.py  
+├── laba4  
+│   ├── README.md  
+│   ├── task1_bank deposit.py  
+│   ├── task1.drawio  
+│   ├── task2.drawio  
+│   └──  task2_main.py  
+├── laba5
+│   ├── README.md  
+│   ├── task1_class-container.py
+│   ├── task1.drawio  
+│   ├── task2.drawio  
+│   ├── task2-main.py  
+│   └── task2_class_hierarchy.py
+├── LICENSE
+├── ncfu-logo.svg
+└── README.md  
+
 ```
 	
 
